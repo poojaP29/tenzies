@@ -18,7 +18,7 @@ function App() {
          console.log("You won!")
       }
    }, [dice])
-  //create a new die
+  
   function generateNewDice() {
     return {
         value: Math.ceil(Math.random() * 6),
@@ -32,7 +32,7 @@ function App() {
     const dieArray=[];
     for(let i=0;i<10;i++)
     {  
-        //generates a random number 1-6
+        
         dieArray.push(generateNewDice())
     }
     return dieArray;
