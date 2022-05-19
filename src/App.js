@@ -21,7 +21,7 @@ function App() {
   
   function generateNewDice() {
     return {
-        value: Math.ceil(Math.random() * 6),
+        value: Math.ceil(Math.random() * 10),
         flag: false,
         id: nanoid()
     }
